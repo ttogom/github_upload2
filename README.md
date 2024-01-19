@@ -24,8 +24,3 @@ There are 4 basic functions inside the program to manage the virtual memory syst
 3. `showmain <ppn>` : Prints the contents of a physical page in the main memory. Since each page contains eight addresses, eight contents of addresses should be printed and together with their associated physical addresses.
 4. `showptable` : Prints the contents of the page table. The system has 16 virtual pages. Each page table entry contains three fields which is Valid bit, Dirty bit, and a Page number.
 - contents are printed by the order of `virtual_page_num:valid_bit:dirty_bit:page_num`
-
-  0:1:0:0\
-  1:1:1:3\
-  2:0:0:2\
-  ...
